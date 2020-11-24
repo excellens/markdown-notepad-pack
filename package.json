@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 0",
     "build": "rollup --config build.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/excellens/markdown-notepad-pack.git"
+  },
   "keywords": [
     "excellens",
     "elementary",
@@ -18,6 +22,10 @@
   ],
   "author": "Marcel <github@gameplayjdk.de>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/excellens/markdown-notepad-pack/issues"
+  },
+  "homepage": "https://github.com/excellens/markdown-notepad-pack#readme",
   "dependencies": {
     "markdown-it": "^12.0.2",
     "markdown-it-abbr": "^1.0.4",
