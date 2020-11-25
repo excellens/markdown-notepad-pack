@@ -1,6 +1,6 @@
 {
   "name": "@excellens/markdown-notepad-pack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compatibility pack for Markdown-It and @excellens/markdown-editor.",
   "main": "src/Main.js",
   "scripts": {
