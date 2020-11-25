@@ -22,7 +22,7 @@
  */
 
 
-import Elementary from '@excellens/elementary';
+import * as Elementary from '@excellens/elementary'
 import MarkdownIt from 'markdown-it'
 import MarkdownItSub from 'markdown-it-sub'
 import MarkdownItSup from 'markdown-it-sup'

@@ -1,12 +1,6 @@
-/*! @excellens/markdown-notepad-pack 1.0.0 undefined @license MIT */
+/*! @excellens/markdown-notepad-pack 1.0.1 https://github.com/excellens/markdown-notepad-pack#readme @license MIT */
 var MarkdownNotepadPack = function(exports, Elementary) {
   "use strict";
-  function _interopDefaultLegacy(e) {
-    return e && typeof e === "object" && "default" in e ? e : {
-      default: e
-    };
-  }
-  var Elementary__default =  _interopDefaultLegacy(Elementary);
   function createCommonjsModule(fn, basedir, module) {
     return module = {
       path: basedir,
@@ -15315,7 +15309,7 @@ var MarkdownNotepadPack = function(exports, Elementary) {
       }
     }));
   };
-  var version$1 = "1.0.0";
+  var version$1 = "1.0.1";
   function Instance() {
     const self = function() {
       const instance = markdownIt();
@@ -15330,7 +15324,7 @@ var MarkdownNotepadPack = function(exports, Elementary) {
       instance.use(markdownItMark);
       return instance;
     }();
-    return Elementary__default["default"].Base.Merge(this, self);
+    return Elementary.Base.Merge(this, self);
   }
   const metadata = {
     version: version$1
