@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/excellens/markdown-notepad-pack#readme",
   "dependencies": {
+    "@excellens/elementary": "^1.0.0",
     "markdown-it": "^12.0.2",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-container": "^3.0.0",
